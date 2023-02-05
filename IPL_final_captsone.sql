@@ -50,7 +50,13 @@ Method varchar,
 Umpire1 Varchar,
 Umpire2 varchar)
 
+-- 3. Import data from csv file 'IPL_matches.csv' attached in resources to 'matches' table
+-- Note : Change the file path according to your device.
+
 copy matches from 'C:\Program Files\PostgreSQL\15\installer\IPLMatches+IPLBall\IPL_matches.csv' csv header
+
+-- 4. --- Q4) Import data from csv file 'IPL_Ball.csv' attached in resources to 'deliveries' table
+-- Note : Change the file path according to your device.
 
 copy Deliveries from 'C:\Program Files\PostgreSQL\15\installer\IPLMatches+IPLBall\IPL_Ball.csv' csv header
 
