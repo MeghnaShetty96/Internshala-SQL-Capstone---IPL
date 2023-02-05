@@ -1,1 +1,3 @@
 # Internshala-SQL-Capstone---IPL
+
+As part of the final project from Internshala's SQL Training for Data Analytics, I was provided with an IPL dataset that comprised two tables ie matches, and deliveries. Deliveries table has 1,92,468 rows, where it contains ball by ball data from IPL 2008 to 2020. Matches table has 816 rows, where it contains match to match data & results of matches played between IPL 2008 to 2020. I have shared my solution to the 24 SQL questions asked in the above file. 
